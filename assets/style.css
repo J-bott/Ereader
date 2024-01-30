@@ -86,12 +86,12 @@ body {
     font-size: 10em;
     color: white;
     margin-bottom: 40px;
-    position: absolute;
+    position: relative;
     z-index: 1;
     mix-blend-mode: exclusion;
     line-height: 0.8;
-    top: 50%;
-    left: 50%;
+    top: 0;
+    left: auto
     transform: translate(-50%, -50%);
 }
 .title2 {
