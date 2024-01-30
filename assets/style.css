@@ -1,0 +1,160 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+    overflow: hidden;
+}
+
+.container {
+    width: 90vw;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+}
+
+.button {
+    
+    padding: 10px 20px;
+    background-color: #000000;
+    border: 1px solid rgb(138, 138, 138);
+    color: rgb(128, 128, 128);
+    border-radius: 15px;
+    font-size: 3em;
+    position: absolute;
+    bottom: 15%;
+    align-self: center;
+    font-family: 'SerialBTRIAL-bold';
+    cursor: pointer;
+    mix-blend-mode: exclusion;
+}
+#menu {
+    display: flex;
+    flex-direction: column;
+    margin-top: 90px;
+}
+.chapters {
+    text-align: center;
+    font-family: 'SerialBTRIAL-Thin';
+    font-size: medium;
+    color: white;
+    margin: 24px;
+    font-size: 15px;
+    cursor: pointer;
+    
+    
+}
+
+.chapters:hover {
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+}
+
+
+.title {
+    font-family: 'SerialBTRIAL-bold';
+    font-size: 10em;
+    color: white;
+    margin-bottom: 40px;
+    position: absolute;
+    z-index: 1;
+    mix-blend-mode: exclusion;
+    line-height: 0.8;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.title2 {
+    font-family: 'SerialBTRIAL-regular';
+    font-size: 8em;
+    color: white;
+    margin-top: 2em;
+}
+.subtitle {
+    font-family: 'SerialBTRIAL-Thin';
+    font-size: 2.5em;
+    color: #7F7F7F;
+    margin-top: 1em;
+}
+canvas{
+    background-color: #1E1E1E;
+    filter: blur(20px) contrast(20);
+}
+
+nav{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 90px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+    z-index: 2;
+}
+
+.playerCtrl{
+    margin: auto;
+
+    
+}
+#progress{
+    -webkit-appearance: none;
+    width: 100%;
+    height: 6px;
+    border-radius: 4px;
+
+}
+
+#progress::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    width: 30px;
+    height: 30px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    box-shadow: 0, 5px, 5px, rgba(255, 26, 26, 0, 22);
+}
+
+.controls{
+    
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 6em;
+    gap: 6em;
+}
+.player{
+
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+audio{
+    display: none;
+}
+
+#play:active {
+    color: gray;
+}
+
+#back:active {
+    color: gray;
+}
