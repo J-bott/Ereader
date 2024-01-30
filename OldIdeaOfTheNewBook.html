@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Book About Books</title>
+    <link rel="stylesheet" href="assets/style.css">
+    <style>
+        @font-face {
+            font-family: 'SerialBlurTRIAL-RegularBlur';
+            src: url('assets/type/SerialBlurTRIAL-RegularBlur.ttf');
+        }
+
+        @font-face {
+            font-family: 'SerialBTRIAL-Regular';
+            src: url('assets/type/SerialBTRIAL-Regular.ttf');
+        }
+        @font-face {
+            font-family: 'SerialBTRIAL-Thin';
+            src: url('assets/type/SerialBTRIAL-Thin.ttf');
+        }
+
+        @font-face {
+            font-family: 'SerialBTRIAL-Bold';
+            src: url('assets/type/SerialBTRIAL-Bold.ttf');
+        }
+        
+        body {
+            overflow: visible !important;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <?xml version="1.0" encoding="iso-8859-1"?>
+        <!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+        <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+        <svg fill="#000000" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
+             width="50px" height="70px" viewBox="0 0 547.596 547.596"
+             xml:space="preserve">
+        <g>
+            <path d="M540.76,254.788L294.506,38.216c-11.475-10.098-30.064-10.098-41.386,0L6.943,254.788
+                c-11.475,10.098-8.415,18.284,6.885,18.284h75.964v221.773c0,12.087,9.945,22.108,22.108,22.108h92.947V371.067
+                c0-12.087,9.945-22.108,22.109-22.108h93.865c12.239,0,22.108,9.792,22.108,22.108v145.886h92.947
+                c12.24,0,22.108-9.945,22.108-22.108v-221.85h75.965C549.021,272.995,552.081,264.886,540.76,254.788z"/>
+        </g>
+        </svg>
+        <script>
+            const svgElement = document.getElementById('Capa_1');
+            svgElement.addEventListener('click', function() {
+                window.location.href = 'index.html';
+                svgElement.style.fill = 'gray';
+            });
+        </script>
+    </nav>
+    <div class="container">
+        <h1 class="title2">Old ideas of the new book</h1>
+        <h2 class="subtitle"> This text was originally published in the book “The most Beautiful Swiss Books 2007”, The past Issue, edited by the Federal Office of Culture in collaboration with: Laurenz Brunner & Tan Walchli </h2>
+        <h3>Robin Cross</h3>
+
+        <div class="player">
+            <audio id="audio" controls>
+                <source id="song" src="assets/newIdeas.mp3" type="audio/mpeg">
+            </audio>
+
+            <div class="progress-bar">
+                <input type="range" id="progress" value="0" min="0" max="100" step="1">
+            </div>
+
+            <div class="controls">
+                <svg id="back" width="112" height="112" viewBox="0 0 112 112" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M56 112C86.9279 112 112 86.9279 112 56C112 25.0721 86.9279 0 56 0C25.0721 0 0 25.0721 0 56C0 86.9279 25.0721 112 56 112ZM28.3685 27.0783C35.5334 20.2312 45.2381 16.0193 55.9266 16.0001C77.9926 15.9605 96.0002 33.9344 96 56.0004C95.9998 78.0915 78.0913 96 56 96C45.6894 96 36.29 92.0989 29.1971 85.6923C28.3724 84.9474 28.3335 83.6663 29.1194 82.8805L35.5164 76.4834C36.2361 75.7639 37.3914 75.7231 38.1564 76.3942C43.0973 80.7294 49.3666 83.0968 56 83.0968C71.1316 83.0968 82.9735 70.8402 83.0958 56.2336C83.2247 40.836 70.6626 28.7755 55.7597 28.9042C48.9163 28.9633 42.4748 31.5452 37.4968 36.2063L44.2306 42.9402C46.6692 45.3789 44.9421 49.5484 41.4934 49.5484H19.871C17.7331 49.5484 16 47.8154 16 45.6775V24.0551C16 20.6064 20.1695 18.8793 22.6082 21.318L28.3685 27.0783Z" fill="white"/>
+                </svg>
+                <svg id="play" width="112" height="112" viewBox="0 0 112 112" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M56 112C86.928 112 112 86.9279 112 56C112 25.0721 86.928 0 56 0C25.072 0 0 25.0721 0 56C0 86.9279 25.072 112 56 112ZM34.7888 25.8944C32.1293 24.5646 29 26.4986 29 29.4722V82.5279C29 85.5014 32.1293 87.4354 34.7888 86.1056L87.8446 59.5777C90.7927 58.1036 90.7927 53.8964 87.8446 52.4223L34.7888 25.8944Z" fill="white"/>
+                </svg>
+                <svg id="forward" width="112" height="112" viewBox="0 0 112 112" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M56 112C86.9279 112 112 86.9279 112 56C112 25.0721 86.9279 0 56 0C25.0721 0 0 25.0721 0 56C0 86.9279 25.0721 112 56 112ZM83.6315 27.0783C76.4666 20.2312 66.7619 16.0193 56.0734 16.0001C34.0074 15.9605 15.9998 33.9344 16 56.0004C16.0002 78.0915 33.9087 96 56 96C66.3106 96 75.71 92.0989 82.8029 85.6923C83.6276 84.9474 83.6665 83.6663 82.8806 82.8805L76.4836 76.4834C75.7639 75.7639 74.6086 75.7231 73.8436 76.3942C68.9027 80.7294 62.6334 83.0968 56 83.0968C40.8684 83.0968 29.0265 70.8402 28.9042 56.2336C28.7753 40.836 41.3374 28.7755 56.2403 28.9042C63.0837 28.9633 69.5252 31.5452 74.5032 36.2063L67.7694 42.9402C65.3308 45.3789 67.0579 49.5484 70.5066 49.5484H92.129C94.2669 49.5484 96 47.8154 96 45.6775V24.0551C96 20.6064 91.8305 18.8793 89.3918 21.318L83.6315 27.0783Z" fill="white"/>
+                </svg>
+            </div>
+        </div>
+    </div> 
+    
+
+    //script for audio player  // 
+    
+    <script>
+        const audioElement = document.getElementById('audio');
+        const playButton = document.getElementById('play');
+        const forwardButton = document.getElementById('forward');
+        const backButton = document.getElementById('back');
+        const progressBar = document.getElementById('progress');
+
+        playButton.addEventListener('click', function() {
+            if (audioElement.paused) {
+                audioElement.play();
+                playButton.style.fill = 'white';
+            } else {
+                audioElement.pause();
+                playButton.style.fill = 'gray';
+            }
+        });
+
+        forwardButton.addEventListener('click', function() {
+            audioElement.currentTime += 10;
+        });
+
+        backButton.addEventListener('click', function() {
+            audioElement.currentTime -= 10;
+        });
+
+        audioElement.addEventListener('timeupdate', function() {
+            const progress = (audioElement.currentTime / audioElement.duration) * 100;
+            progressBar.value = progress;
+        });
+    </script>
+    
+    <script src="assets/script.js"></script>
+</body>
+</html>

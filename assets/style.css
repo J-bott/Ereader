@@ -17,17 +17,18 @@ body {
 }
 
 .container {
-    width: 90vw;
+    width: 90%;
     height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
+    position: absolute;
+    
 
 }
 
 .button {
-    
     padding: 10px 20px;
     background-color: #000000;
     border: 1px solid rgb(138, 138, 138);
@@ -41,7 +42,11 @@ body {
     cursor: pointer;
     mix-blend-mode: exclusion;
 }
+.button:active {
+    color: rgb(40, 40, 40);
+}   
 #menu {
+    width: 100%;
     display: flex;
     flex-direction: column;
     margin-top: 90px;
@@ -62,6 +67,18 @@ body {
     color: rgb(255, 255, 255);
     text-decoration: underline;
 }
+.chapters2 {
+    text-align: center;
+    font-family: 'SerialBTRIAL-Thin';
+    font-size: medium;
+    color: rgb(116, 115, 115);
+    margin: 24px;
+    font-size: 15px;
+    cursor: pointer;
+    
+    
+}
+
 
 
 .title {
@@ -79,9 +96,11 @@ body {
 }
 .title2 {
     font-family: 'SerialBTRIAL-regular';
-    font-size: 8em;
+    font-size: 7em;
     color: white;
     margin-top: 2em;
+
+    
 }
 .subtitle {
     font-family: 'SerialBTRIAL-Thin';
@@ -92,6 +111,9 @@ body {
 canvas{
     background-color: #1E1E1E;
     filter: blur(20px) contrast(20);
+    width: 100%;
+    height: 100%;
+
 }
 
 nav{
@@ -157,4 +179,8 @@ audio{
 
 #back:active {
     color: gray;
+}
+
+svg :active{
+    filter: drop-shadow(2px 2px 4px rgba(255, 255, 255, 0.5));
 }

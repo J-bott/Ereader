@@ -80,3 +80,4 @@ canvas.addEventListener('click', function(event) {
         }
     });
 });
+
